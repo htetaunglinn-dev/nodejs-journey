@@ -31,7 +31,7 @@ mongoose
     "mongodb+srv://david:dotamaster123@cluster0.flezoas.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => {
-    app.listen(3000);
+    app.listen(3000, console.log("Server is running on port 3000"));
   })
   .catch((err) => {
     console.log(err);
